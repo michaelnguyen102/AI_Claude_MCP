@@ -60,7 +60,7 @@ const createAmazonFreshLinkTool: Tool = {
   description: `Create a link to this recipe's ingredients on Amazon Fresh. Please show the link in your response after using the tool. Here are some other suggestions on how to use this tool:
 For best search results, please only include the canonical ingredient in the “name” field. Best practices for the “name” field include:
 - Remove all unnecessary qualifiers, brands, quantities, and prep instructions (grated, sliced, chopped, crush, crumble, etc.).
-- Avoid packaging description such as “1-gallon box” or “1 six-pack”. We’ll find the best size container for the specified unit.
+- Avoid packaging description such as “1-gallon box” or “1 six-pack”. We'll find the best size container for the specified unit.
 - Avoid punctuation marks (periods, commas, etc.).
 - If you want to use brand preference, enter it in the “brand” property rather than the “name” field. Absolutely do not add a brand in both the “name” and “brand” field.`,
   inputSchema: {
